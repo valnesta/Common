@@ -1,0 +1,9 @@
+#List the common names in two lists a 'James', 'John', 'David', 'Grace', 'Gad', 'Luke' and
+# b  'Luke', 'Abigail', 'Grace', 'John', 'David', 'Mark'
+#Result must be in lists
+
+a = [ 'James', 'John', 'David', 'Grace', 'Gad', 'Luke']
+b = [ 'Luke', 'Abigail', 'Grace', 'John', 'David', 'Mark']
+
+common = [c for c in a if c in b]
+print(common)
